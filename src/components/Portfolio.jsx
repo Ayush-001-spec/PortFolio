@@ -1,9 +1,7 @@
 import React from "react";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
-import project4 from "../assets/project4.png";
-import project5 from "../assets/project5.png";
-import project6 from "../assets/project6.png";
+
 import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 
@@ -11,47 +9,28 @@ const projects = [
   {
     img: project1,
     title: "Project #1",
-    description: "UI for frontend development using React.",
+    description: "A Chat application built with Node.js and MongoDB.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://chatt-app-per3.onrender.com/",
+      github: "https://github.com/Ayush-001-spec/chatty-app",
     },
   },
   {
     img: project2,
-    title: "Project #2",
-    description: "A fullstack application built with Node.js and MongoDB.",
+    title: "User Enquiry",
+    description: "A User Enquiry Website built with Node.js and MongoDB.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://user-enquiry-frontend.onrender.com",
+      github: "https://github.com/Ayush-001-spec/User-Enquiry",
     },
   },
   {
-    img: project4,
-    title: "Project #3",
-    description: "An e-commerce platform with various features.",
+    img: "project3",
+    title: "Gym Website",
+    description: "A Gym Enquiry Website built with Node.js and MongoDB.",
     links: {
-      site: "#",
-      github: "#",
-    },
-  },
-  {
-    img: project5,
-    title: "Project #4",
-    description: "A mobile-friendly application using React Native.",
-    links: {
-      site: "#",
-      github: "#",
-    },
-  },
-  {
-    img: project6,
-    title: "Project #5",
-    description:
-      "A data visualization project using D3.js and other libraries.",
-    links: {
-      site: "#",
-      github: "#",
+      site: "https://user-enquiry-frontend.onrender.com",
+      github: "https://github.com/Ayush-001-spec/User-Enquiry",
     },
   },
 ];
