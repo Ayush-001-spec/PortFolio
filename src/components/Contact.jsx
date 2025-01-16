@@ -30,9 +30,9 @@ const Contact = () => {
 
             <div className="flex mt-10 items-center gap-7">
               <div className="bg-gray-800/40 p-4 rounded-lg">
-                <h3 className="md:text-4xl text-2xl font-semibold text-white">
+                {/* <h3 className="md:text-4xl text-2xl font-semibold text-white">
                   5<span>+</span>
-                </h3>
+                </h3> */}
                 <p className="text-xs md:text-base">
                   <span>Projects</span>
                 </p>
@@ -41,7 +41,7 @@ const Contact = () => {
           </div>
 
           <form
-            action="https://getform.io/f/placeYourEndpointHere"
+            action="https://getform.io/f/bdrrjrlb"
             method="POST"
             className=" max-w-6xl p-5 md:p-12"
             id="form"
