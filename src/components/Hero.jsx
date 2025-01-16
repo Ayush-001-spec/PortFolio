@@ -68,8 +68,8 @@ const Hero = () => {
               }}
               className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                border-purple-400 rounded-xl"
-              href="https://docs.google.com/document/d/1jGfnNgs9XkXI9t3ZpS27nvHXx4ErX5Of/edit"
-              download={"Ayush Dhiman.pdf"}
+              href="https://docs.google.com/document/d/1qy4212ehNKdL-2aOQ9HP_bli2zP92wUW/edit?usp=sharing&ouid=114803168268436655903&rtpof=true&sd=true"
+              download={"Ayush Dhiman"}
             >
               Download CV
             </motion.a>
