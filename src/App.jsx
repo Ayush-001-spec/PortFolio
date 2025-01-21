@@ -1,4 +1,5 @@
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
 
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -12,6 +13,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Skills />
+      <Experience/>
       <Portfolio />
       <Contact />
       <Footer />

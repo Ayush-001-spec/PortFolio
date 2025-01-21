@@ -4,9 +4,22 @@ import Reveal from "./Reveal";
 
 const experiences = [
   {
-    company: "First Company",
-    period: "2020 - Present",
-    description: "Description of your experience in this company.",
+    company: "Personal Portfolio Website",
+    period: "January 2025",
+    description:
+      "Designed and developed a responsive portfolio website using React.js and Framer Motion to highlight skills and projects. Implemented animations for interactive user experience.",
+  },
+  {
+    company: "Full-Stack Development Certification",
+    period: "2024",
+    description:
+      "Built a comprehensive web application, implementing frontend features with React.js, form validation, and responsive UI, alongside backend integration using Node.js and Express.",
+  },
+  {
+    company: "Weather App (Personal Project)",
+    period: "December 2024",
+    description:
+      "Created a weather application using React.js and OpenWeather API, featuring dynamic search functionality and real-time data rendering.",
   },
 ];
 

@@ -14,25 +14,15 @@ const Contact = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                I’m Ayush Dhiman, a versatile fullstack developer with a strong
-                foundation in frontend technologies like HTML, CSS, and
-                JavaScript, along with expertise in backend development using
-                Node.js, Express, and databases. I’m passionate about designing
-                complete web solutions—from intuitive, responsive user
-                interfaces to scalable server-side logic—ensuring optimal
-                performance and user engagement. My continuous pursuit of
-                knowledge keeps me updated with the latest tools and practices
-                in modern web development. I am eager to contribute to teams
-                that value innovation, quality code, and the power of technology
-                to solve real-world problems.
+              I am a motivated frontend developer with a passion for creating responsive, user-centric web interfaces. Proficient in HTML, CSS, and JavaScript, I also have experience working with libraries and frameworks like React and Bootstrap. I am eager to apply my skills, continuously learn new technologies, and contribute to impactful projects.
               </p>
             </div>
 
             <div className="flex mt-10 items-center gap-7">
               <div className="bg-gray-800/40 p-4 rounded-lg">
-                {/* <h3 className="md:text-4xl text-2xl font-semibold text-white">
+                <h3 className="md:text-4xl text-2xl font-semibold text-white">
                   5<span>+</span>
-                </h3> */}
+                </h3>
                 <p className="text-xs md:text-base">
                   <span>Projects</span>
                 </p>

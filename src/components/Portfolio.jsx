@@ -1,11 +1,30 @@
 import React from "react";
 import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
+import project2 from "../assets/weather.png";
+import spotify from "../assets/Spotiofy.png";
 
 import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 
 const projects = [
+  {
+    img: spotify,
+    title: "Spotify Clone",
+    description: "A spotify clone website built with React.js ",
+    links: {
+      site: "https://spotify-clone-kv9g.onrender.com/",
+      github: "https://github.com/Ayush-001-spec/spotify-clone",
+    },
+  },
+  {
+    img: project2,
+    title: "Weather App",
+    description: "A weather app   built with React.js",
+    links: {
+      site: "https://weather-app-wggm.onrender.com",
+      github: "https://github.com/Ayush-001-spec/Weather-app",
+    },
+  },
   {
     img: project1,
     title: "Project #1",
@@ -13,24 +32,6 @@ const projects = [
     links: {
       site: "https://chatt-app-per3.onrender.com/",
       github: "https://github.com/Ayush-001-spec/chatty-app",
-    },
-  },
-  {
-    img: project2,
-    title: "User Enquiry",
-    description: "A User Enquiry Website built with Node.js and MongoDB.",
-    links: {
-      site: "https://user-enquiry-frontend.onrender.com",
-      github: "https://github.com/Ayush-001-spec/User-Enquiry",
-    },
-  },
-  {
-    img: "project3",
-    title: "Gym Website",
-    description: "A Gym Enquiry Website built with Node.js and MongoDB.",
-    links: {
-      site: "https://user-enquiry-frontend.onrender.com",
-      github: "https://github.com/Ayush-001-spec/User-Enquiry",
     },
   },
 ];
@@ -62,6 +63,7 @@ const Portfolio = () => {
               <div className="flex space-x-4">
                 <a
                   href={project.links.site}
+                  target="_blank"
                   className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300"
                 >
@@ -69,6 +71,7 @@ const Portfolio = () => {
                 </a>
                 <a
                   href={project.links.github}
+                  target="_blank"
                   className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300"
                 >

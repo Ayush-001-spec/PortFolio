@@ -13,7 +13,7 @@ const Footer = () => {
 
         </div>
 
-        <p className='text-gray-400'>@2024 Ayush.D</p>
+        <p className='text-gray-400'>@2025 Ayush.D</p>
         
     </div>
   )

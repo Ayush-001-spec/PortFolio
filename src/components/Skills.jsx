@@ -13,6 +13,8 @@ import {
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import Reveal from "./Reveal"
+import { FiFramer } from "react-icons/fi";
+import {  FaGitAlt } from "react-icons/fa";
 
 const skills = [
     {
@@ -24,17 +26,19 @@ const skills = [
         { name: 'Bootstrap', icon: <DiBootstrap className='text-purple-600' /> },
         { name: 'JavaScript', icon: <DiJavascript1 className='text-yellow-500' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
+        { name: 'Framer', icon: <FiFramer className='text-black' /> },
+        { name: 'Git', icon: <FaGitAlt className='text-orange-700' /> },
       ],
     },
-    {
-      category: 'Fullstack',
-      technologies: [
-        { name: 'Node Js', icon: <DiNodejsSmall className='text-green-500' /> },
-        { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
-        { name: 'Express', icon: <SiExpress className='text-blue-500' /> },
-        { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
-      ],
-    },
+    // {
+    //   category: 'Fullstack',
+    //   technologies: [
+    //     { name: 'Node Js', icon: <DiNodejsSmall className='text-green-500' /> },
+    //     { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
+    //     { name: 'Express', icon: <SiExpress className='text-blue-500' /> },
+    //     { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
+    //   ],
+    // },
   ]
 
 const Skills = () => {

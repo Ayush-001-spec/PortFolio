@@ -27,7 +27,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <TypeAnimation
-            sequence={["Fullstack Dev", 1000, "Webdesigner", 1000]}
+            sequence={["Frontend Developer", 1000, "Webdesigner", 1000]}
             speed={50}
             repeat={Infinity}
             className="font-bold text-gray-400 text-xl md:text-5xl italic- mb-4"
@@ -51,7 +51,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
           >
-            I am a passionate Fullstack developer .
+            I am a passionate Frontend developer .
           </motion.p>
 
           <motion.div
@@ -100,7 +100,7 @@ const Hero = () => {
 
         <motion.img
           src={profilepic}
-          className="w-[200px] md:w-[300px] overflow-hidden rounded-full border-none  bg-transparent"
+          className=" picimg "
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
