@@ -68,7 +68,7 @@ const Hero = () => {
               }}
               className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                border-purple-400 rounded-xl"
-              href="https://docs.google.com/document/d/1qy4212ehNKdL-2aOQ9HP_bli2zP92wUW/edit?usp=sharing&ouid=114803168268436655903&rtpof=true&sd=true"
+              href="https://drive.google.com/file/d/1-2nNSUZP3UVigmJnU3G71412w-Gnuh1d/view?usp=sharing"
               download={"Ayush Dhiman"}
             >
               Download CV
@@ -83,15 +83,18 @@ const Hero = () => {
                 <AiOutlineGithub />
               </motion.a>
 
-              <motion.a
+              {/* <motion.a
                 whileHover={{ scale: 1.2 }}
-                href="https://www.linkedin.com/in/ayush-dhiman-5133bb344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="https://www.linkedin.com/in/ayush-dhiman-3bb14b348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
               >
                 <AiOutlineLinkedin />
-              </motion.a>
+              </motion.a> */}
 
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                href="https://www.instagram.com/__beingayush__?igsh=cG03Nm1yaDUzcTJh"
+              >
                 <AiOutlineInstagram />
               </motion.a>
             </div>

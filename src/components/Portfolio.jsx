@@ -10,7 +10,8 @@ const projects = [
   {
     img: spotify,
     title: "Spotify Clone",
-    description: "A spotify clone website built with React.js ",
+    description:
+      "A Spotify clone website built with React.js, incorporating dynamic routing, state management, and a responsive design. ",
     links: {
       site: "https://spotify-clone-kv9g.onrender.com/",
       github: "https://github.com/Ayush-001-spec/spotify-clone",
@@ -19,7 +20,8 @@ const projects = [
   {
     img: project2,
     title: "Weather App",
-    description: "A weather app   built with React.js",
+    description:
+      "A weather app built with React.js that displays real-time weather data for different locations. It allows users to search for cities, view temperature and weather conditions.",
     links: {
       site: "https://weather-app-wggm.onrender.com",
       github: "https://github.com/Ayush-001-spec/Weather-app",
@@ -27,8 +29,8 @@ const projects = [
   },
   {
     img: project1,
-    title: "Project #1",
-    description: "A Chat application built with Node.js and MongoDB.",
+    title: "Chat app",
+    description: "A real-time chat application built with Node.js and MongoDB, enabling users to send and receive messages instantly.",
     links: {
       site: "https://chatt-app-per3.onrender.com/",
       github: "https://github.com/Ayush-001-spec/chatty-app",
